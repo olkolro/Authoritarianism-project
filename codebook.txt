@@ -1,0 +1,25 @@
+Authoritarianism project: codebook
+
+This study uses a wave 7 dataset of the longitudinal COVID‐19 psychological research consortium study (Bentall et al., 2020-2022; https://osf.io/v2zur/). 
+Data was collected online at multiple time points. The sample (N for wave 7 = 1405) is a quota sample stratified by age, sex and education to match the UK population according to Office of National Statistics data.
+
+Variables included in the final dataset used for my analyses (latent profile analysis & multinomial logistic regressions):
+1. pid - participant ID
+2. RWA (continuous variable) – calculated score on right-wing authoritarianism subscale; higher scores indicate higher right-wing authoritarianism (range: 5-25)
+3. LWA (continuous variable) – calculated score on left-wing authoritarianism subscale; higher scores indicate higher left-wing authoritarianism (range: 5-25)
+4. SA (continuous variable) – calculated score on sexual authoritarianism subscale; higher scores indicate higher right-wing authoritarianism (range: 5-25)
+5. COVID (continuous variable) – calculated score on COVID-19 authoritarianism subscale; higher scores indicate higher COVID-19 authoritarianism (range: 5-25)
+6. JS (continuous variable) – calculated score on justice seeking authoritarianism subscale; higher scores indicate higher justice seeking authoritarianism (range: 5-25)
+7. Class (categorical variable) – variable resulted from running latent profile analysis conducted in RStudio; 1 = non-authoritarians, 2 = authoritarians about almost anything, 3 = anti-authoritarians, 4 = left-wing authoritarians
+8. Age [in years] (continuous variable) – reported by participants
+9. Gender (categorical variable): 1 = male, 2 = female, 3 = transgender, 4 = prefer not to say, 5 = other
+10. Education_binary [this variable was not included in wave 7 dataset, however, since all participants answered education question in one of previous waves, this data was obtained by merging datasets] (categorical variable): 0 = did not attend post-secondary education, 1 = attended post-secondary education
+11. EU_ref_vote [“in European referendum what did you do?”] (categorical variable): 1 = voted to leave the EU, 2 = voted to stay in the EU, 3 = did not vote, 4 = ineligible to vote because too young, 5 = ineligible to vote because not a UK citizen or resident
+12. bully_child_TOTAL (continuous variable) – calculated score on frequency of bullying (9 items) in childhood; higher scores indicate more frequent bullying (range 0-45)
+13. bully_adult_TOTAL (continuous variable) – calculated score on frequency of bullying (9 items) in adulthood; higher scores indicate more frequent bullying (range 0-45)
+14. bully_others [single item: “have you ever taken part in bullying another person?”] (continuous variable): 1 = never, 2 = rarely, 3 = sometimes, 4 = often, 5 = always, 0 = never (initially coded as 6 but recoded prior to running the analyses)
+15. child_rearing_TOTAL (continuous variable) – calculated score on child-rearing scale (8 pairs of items; forced choice); higher scores indicate more authoritarian child-rearing attitudes (range: 0-8)
+16. parent_rearing_TOTAL (continuous variable) – calculated perceived parent score on child-rearing scale (8 pairs of items; forced choice); higher scores indicate more authoritarian child-rearing attitudes (range: 0-8)
+
+Note: the original dataset is not publicly available yet. 
+When it becomes available, it will be uploaded on C19PRC OSF page along with a full codebook to the raw dataset. 
